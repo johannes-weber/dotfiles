@@ -95,3 +95,9 @@ brew install zopfli
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# Install other web related stuff
+brew install node
+brew install sqlite
+brew cask install sublime-text
+brew cask install visual-studio-code
