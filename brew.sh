@@ -114,6 +114,7 @@ brew cask install tunnelblick
 brew cask install google-backup-and-sync
 brew cask install vlc
 brew cask install spectacle
+brew cask install kindle
 
 # Remove outdated versions from the cellar.
 brew cleanup
