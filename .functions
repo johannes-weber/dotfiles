@@ -197,3 +197,16 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+
+# make copy a function that checks whether there's an
+# argument being passed, and if so, cat the file and pipe
+# through copy. otherwise, pipe stdin into copy, then
+# finally paste to stdout
+copy() {
+  if [ -t 0 ]; then
+    cat $@ | pbcopy
+  else
+    pbcopy < /dev/stdin
+  fi
+  pbpaste
+}
