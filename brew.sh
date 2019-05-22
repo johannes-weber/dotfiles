@@ -57,6 +57,7 @@ brew install ssh-copy-id
 brew install tree
 brew install zopfli
 brew install s3cmd
+brew install autojump
 
 # Install other personal apps
 brew install gpg
@@ -80,18 +81,12 @@ brew cask install tunnelblick
 brew cask install google-backup-and-sync
 brew cask install vlc
 brew cask install spectacle
-brew cask install kindle
 brew cask install appcleaner
 brew cask install filezilla
 brew cask install google-drive
-brew cask install google-cloud-sdk
 brew cask install java
 brew cask install rambox
 brew cask install sourcetree
-brew cask install thunderbird
-brew cask install vagrant
-brew cask install vagrant-manager
-brew cask install virtualbox
 
 # Remove outdated versions from the cellar.
 brew cleanup
