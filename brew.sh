@@ -39,54 +39,40 @@ brew install gnupg
 # Install more recent versions of some macOS tools.
 brew install vim --with-override-system-vi
 brew install grep
-brew install openssh
-brew install openssl
 brew install screen
-brew install homebrew/php/php56 --with-gmp
 
 
 # Install other useful binaries.
 brew install ack
 brew install git
 brew install git-lfs
-brew install imagemagick --with-webp
-brew install lynx
-brew install gettext
-brew install rename
-brew install ssh-copy-id
 brew install tree
-brew install zopfli
 brew install s3cmd
-brew install autojump
 
 # Install other personal apps
+brew install --cask alfred
 brew install gpg
 brew install node
-brew install sqlite
 brew cask install sublime-text
 brew cask install visual-studio-code
 brew cask install google-chrome
 brew cask install google-chrome-canary
 brew cask install firefox
 brew cask install diffmerge
-brew cask install opera
 brew cask install iterm2
 brew cask install skype
 brew cask install slack
 brew cask install dropbox
 brew cask install imageoptim
 brew cask install macdown
-brew cask install openoffice
-brew cask install tunnelblick
 brew cask install google-backup-and-sync
 brew cask install vlc
-brew cask install spectacle
 brew cask install appcleaner
-brew cask install filezilla
-brew cask install google-drive
-brew cask install java
 brew cask install rambox
 brew cask install sourcetree
+brew cask install thunderbird
+brew cask install quicklook-json
+brew cask install http-toolkit
 
 # Remove outdated versions from the cellar.
 brew cleanup
